@@ -8,7 +8,7 @@ import {
   MDBInput,
 } from 'mdb-react-ui-kit';
 
-export default function Footer() {
+function Footer() {
   return (
     <MDBFooter bgColor="dark" className="text-center text-white text-lg-left">
       <MDBContainer className="p-4 pb-0">
@@ -51,4 +51,4 @@ export default function Footer() {
   );
 }
 
-//export default Footer;
+export default Footer;
