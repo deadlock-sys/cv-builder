@@ -9,7 +9,7 @@ import {
   MDBBtn,
 } from 'mdb-react-ui-kit';
 
-function Footer() {
+export default function Footer() {
   return (
     <MDBFooter bgColor="dark" className="text-center text-white text-lg-left">
       <MDBContainer className="p-4 pb-0">
@@ -52,4 +52,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+//export default Footer;
